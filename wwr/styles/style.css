@@ -61,13 +61,6 @@ nav a:hover {
   color: #0fbdbd;
 }
 
-.msg {
-  background-color: #5c78d6;
-  line-height: 1.5em;
-  padding: 35px; 
-}
-
-
 .home-title {
   color: #0fbdbd;
   margin-top: 10px;
@@ -124,11 +117,6 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
-}
-
-.home-title {
-  font-family: 'Tahoma', 'Verdana', sans-serif;
-  font-size: 2em;
 }
 
 .home-title {
@@ -227,6 +215,7 @@ nav {
 .msg {
   background-color: #6f7364;
   padding: 35px;
+  line-height: 1.5em;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px;
