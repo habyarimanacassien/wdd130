@@ -276,24 +276,25 @@ nav {
   grid-template-columns: 2fr 1fr 4fr 1fr 5fr 1fr 4fr 1fr 2fr;
 }
 
-.river1-card, .river2-card, .river3-card {  
+.container_r1, .container_r2, .container_r3 {  
   margin: 200px 0;
 }
 
 
-.river1-card {
+.container_r1 {
   grid-column: 2/4;
-  grid-row: 6/7;
+  grid-row: 5/8;
 }
 
-.river2-card {
+
+.container_r2 {
   grid-column: 5/6;
-  grid-row: 6/7;
+  grid-row: 5/8;
 }
 
-.river3-card {
+.container_r3 {
   grid-column: 7/9;
-  grid-row: 6/7;
+  grid-row: 5/8;
 }
 
 #background-rivers {
@@ -321,30 +322,66 @@ nav {
   font-size: 2em;
 }
 
-.river1-card, .river2-card, .river3-card {
+
+.container_r1, .container_r2, .container_r3 {
+  position: relative;
   width: 100%;
-  border: 5px solid #0a0f1f;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #6f7364;
 }
-.river1-card:hover, .river2-card:hover, .river3-card:hover {
-  opacity: .5;
-  transform: scale(1.1);
+
+h3 {
+  color: white;
 }
+
+.image_r1, .image_r2, .image_r3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.info {height: 225px;}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container_r1:hover  .overlay, .container_r2:hover  .overlay, .container_r3:hover .overlay {
+  width: 100%;
+}
+
+.para {margin-top: -80px; }
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 
 @media screen and (max-width:900px) {
   .rivers-grid {
       display: block;
       height: auto;
   }
+
   .rivers-title {
       font-size: 25px;
       color: #6f7364;
   }
-  .river1-card, .river2-card, .river3-card { 
-      margin: 50px auto;
-      width: 100%;
-  }
+
   #background-rivers {
       display: none;
   }
