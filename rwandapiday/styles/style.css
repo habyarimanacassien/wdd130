@@ -113,16 +113,18 @@ nav {
 
 /* css content for the RIVERS page */
 
+
 #pi-meaning-card, #pi-day-meaning-card, #pi-many-digits-card {
   width: 75%;
   border-style: solid;
   margin: auto auto;
+  margin-top: 20px;
 }
 #pi-meaning-card, #pi-day-meaning-card, #pi-many-digits-card {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-
+  padding: 20px;
 }
 #pmc-img, #pdmc-img {
   grid-column: 1/1;
