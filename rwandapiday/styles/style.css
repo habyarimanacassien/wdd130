@@ -126,6 +126,11 @@ nav {
   grid-template-rows: 1fr;
   padding: 20px;
 }
+
+#pi-many-digits-card {
+background-color: #ebfcff;
+}
+
 #pmc-img, #pdmc-img {
   grid-column: 1/1;
   grid-row: 1/1;
@@ -142,7 +147,7 @@ nav {
 }
  .pmc-title, .pdmc-title, .pmdc-title {
   text-align: center;
-  color: #0fbdbd;
+  color: #7a28cb;
   font-family: 'Tahoma', 'Verdana', sans-serif;
   font-size: 25px;
 }
