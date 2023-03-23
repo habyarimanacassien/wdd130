@@ -111,7 +111,7 @@ nav {
   }
 }
 
-/* css content for the RIVERS page */
+/* css content for the Home page for Pi Day*/
 
 
 #pi-meaning-card, #pi-day-meaning-card, #pi-many-digits-card {
@@ -199,3 +199,34 @@ background-color: #ebfcff;
   -ms-transform: translate(-50%, -50%);
 }
 
+
+
+/* css content for the Home page for Pi Day*/
+* {
+  box-sizing: border-box;
+}
+.container12 {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.mc-title {
+  text-align: center;
+  color: #5c78d6;
+  font-family: 'Tahoma', 'Verdana', sans-serif;
+  font-size: 30px;
+}
+
+.container12 img {vertical-align: middle;}
+
+.container12 .content12 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
