@@ -201,7 +201,7 @@ background-color: #ebfcff;
 
 
 
-/* css content for the Home page for Pi Day*/
+/* css content for the 1st sub-page of Mathematics Competition*/
 * {
   box-sizing: border-box;
 }
@@ -304,4 +304,183 @@ background-color: #ebfcff;
   color: white;
   font-size: 1.1em;
   padding-bottom: 0px;
+}
+
+
+/* css content for the 2nd sub-page of Pi Day Celebration*/
+* {
+  box-sizing: border-box;
+}
+
+.container14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.timeline {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #5c78d6;
+  padding: 10px;
+  line-height: 1.3em;
+  box-shadow: 5px 5px 10px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.time1-card {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #5c78d6;
+  padding: 10px;
+  line-height: 1.3em;
+  box-shadow: 5px 5px 10px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+.time2-card {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.time3-card {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.time4-card {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.time5-card {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #5c78d6;
+  padding: 10px;
+  line-height: 1.3em;
+  box-shadow: 5px 5px 10px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+.time6-card {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.main1-img {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+.main1-img img {vertical-align: middle;}
+
+.container14 .timeline {
+
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time1-card {
+
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time2-card {
+  background: rgb(252, 208, 208); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time3-card {
+  background: rgb(178, 177, 177); /* Fallback color */
+  background: rgba(166, 148, 148, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time4-card {
+  background: rgb(252, 208, 208); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time5-card {
+  background: rgb(252, 208, 208); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.container14 .time6-card {
+  background: rgb(252, 208, 208); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.container15 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: -170px;
+}
+.alternative-card {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+  margin-top: 30px;
+  margin: 20px 20px 20px 20px;
+}
+.alternative-card-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 10px 10px 10px 10px;
+}
+
+.today-card {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: white;
+  margin-top: 30px;
+  margin: 20px 20px 20px 20px;
+}
+.today-card-img {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  z-index: -1;
+  margin: 10px 10px 10px 10px;
+}
+
+.pdc-title {
+  text-align: center;
+  color: #5c78d6;
+  font-family: 'Tahoma', 'Verdana', sans-serif;
+  font-size: 30px;
+}
+
+.timeline {
+  text-align: center;
+  color: #5c78d6;
+  font-family: 'Tahoma', 'Verdana', sans-serif;
+  font-size: 35px;
+
 }
