@@ -484,3 +484,11 @@ background-color: #ebfcff;
   font-size: 35px;
 
 }
+
+
+
+/* MAIN NAVIGATION PAGE */
+#main-nav {
+  grid-template-columns: 150px auto;
+  background-color: #5c78d6;
+}
